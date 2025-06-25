@@ -5,7 +5,7 @@
 function myWork(fullName, age, dathOfBirth = 2000 ) {       //(fullName, age, dathOfBirth = 2000 )=Parameter // 
 
     console.log("Hello " + fullName + ' year ' + age + ' Dath Of Birth '+ dathOfBirth );
-}
+};
 myWork('Alok', 21, 2003);       // ('Alok', 21, 2003)=Argument //
 myWork('Tomal', 23, 2001);
 
@@ -13,7 +13,7 @@ myWork('Tomal', 23, 2001);
 // Usear call (Event Driven Invocation) //-----
 function subscribeNow() {
     console.log('Subscribe');
-}
+};
 document.getElementById('but').addEventListener('click', subscribeNow);
 
 
@@ -29,7 +29,7 @@ document.getElementById('but').addEventListener('click', subscribeNow);
 
 let calculation = function(x,y){
     return x * y;  //return এর পরে আর কোন কোড কাজ করে না //
-}
+};
 console.log(calculation(4, 5));
 console.log(calculation(5, 5));
 
@@ -38,7 +38,7 @@ let calculations = function(x,y){
     console.log('I Love Bangladesh');  // Working //
     return x * y;
      console.log('I Love Rajshahi');   // Not Working //
-}
+};
 console.log(calculations(6, 6));
 console.log(calculations(5, 8));
 
@@ -78,7 +78,7 @@ console.log(added( 6, 7));
 function great(firstName){
    function onlyHello() {
     alert('Hello ' + firstName);
-  }
+  };
   return onlyHello();
 };
 great('Alok');
